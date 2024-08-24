@@ -11,7 +11,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ReactiveCocoa/ReactiveSwift.git", from: "6.4.0"),
-    .package(url: "https://github.com/KikuchiTomo/XCReactiveObjC.git", branch: "ReactiveObjC")    
+    .package(url: "https://github.com/KikuchiTomo/XCReactiveObjC.git", branch: "main")    
   ],
   targets: [
      .binaryTarget(
