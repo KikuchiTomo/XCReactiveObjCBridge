@@ -21,7 +21,7 @@ let package = Package(
      ),
      .target(name: "ReactiveObjCBridgeTarget",
               dependencies: [
-                  .target(name: "ReactiveObjCBridge", condition: .when(platforms: .some([.iOS]))),            
+                  .target(name: "ReactiveObjCBridge"),            
                   .product(name: "ReactiveSwift", package: "ReactiveSwift")
               ],
               path: "XCReactiveObjCBridgeTarget"
