@@ -1,0 +1,24 @@
+PODS:
+  - ReactiveObjC (3.1.1)
+  - ReactiveObjCBridge (6.0.0):
+    - ReactiveObjC (~> 3.1)
+    - ReactiveSwift (~> 6.1)
+  - ReactiveSwift (6.7.0)
+
+DEPENDENCIES:
+  - ReactiveObjCBridge
+
+SPEC REPOS:
+  trunk:
+    - ReactiveObjC
+    - ReactiveObjCBridge
+    - ReactiveSwift
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  ReactiveObjCBridge: 5502e3da1f092d39953ac27816f3441e01eb875a
+  ReactiveSwift: 208201d6ecc9734196d147aa76bc1f24b1b821fe
+
+PODFILE CHECKSUM: 1c729d18a3f99535655d806eddefdb2c135ec100
+
+COCOAPODS: 1.12.1
