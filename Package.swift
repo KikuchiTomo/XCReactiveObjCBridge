@@ -15,15 +15,15 @@ let package = Package(
   ],
   targets: [
      .binaryTarget(
-      name: "ReactiveObjCBridge",
+      name: "ReactiveObjCBridgeTarget",
       url: "https://github.com/KikuchiTomo/XCReactiveObjCBridge/releases/download/v1.0.0/ReactiveObjCBridge.xcframework.zip",
       checksum: "57a0b762b357cb222c95993d1d5be70678e3696daa9cb176b6675a59d9a25306"
      )
-    // ,
-    //  .target(name: "ReactiveObjCBridge",
-    //           dependencies: [
-    //               .target(name: "ReactiveObjCBridgeTarget"),            
-    //               .product(name: "ReactiveSwift", package: "ReactiveSwift")
-    //           ])
+    ,
+     .target(name: "ReactiveObjCBridge",
+              dependencies: [
+                  .target(name: "ReactiveObjCBridgeTarget"),            
+                  .product(name: "ReactiveSwift", package: "ReactiveSwift")
+              ])
   ]
 )
